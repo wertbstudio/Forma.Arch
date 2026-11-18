@@ -1,0 +1,8 @@
+{
+  "name": "forma-arch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FORMA.ARCH — архитектурное бюро, этап 1",
+  "scripts": {"dev": "node dev-server.js", "test": "node --test tests/api.test.js", "check": "node --check script.js && node --check api/send.js && node --check dev-server.js"},
+  "engines": {"node": ">=22"}
+}
